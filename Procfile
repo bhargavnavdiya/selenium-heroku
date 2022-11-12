@@ -1,1 +1,1 @@
-web: python GoogleTestHeroku.py
+web: python main.py
