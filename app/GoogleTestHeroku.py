@@ -29,8 +29,8 @@ class GoogleSearhUnitTest(unittest.TestCase):
     @classmethod
     # def setUpClass(cls): 
     def setUpClass(cls):
-        cls.driver = webdriver.Chrome('C:/Windows/chromedriver.exe')  # Optional argument, if not specified will search path.
-        cls.driver.maximize_window()
+        cls.driver = webdriver.ChromeOptions()  # Optional argument, if not specified will search path.
+        # cls.driver.maximize_window()
 
         time.sleep(3)# Let the user actually see something!
     
